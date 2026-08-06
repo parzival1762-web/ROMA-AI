@@ -24,14 +24,17 @@ Rules:
 """
 
 def ask_roma(prompt):
-
-    response = client.models.generate_content(
-        model="gemini-3.5-flash",
-        contents=f"""
+    try:
+        response = client.models.generate_content(
+            model="gemini-3.5-flash",
+            contents=f"""
 {personality}
 
 User: {prompt}
 """
-    )
+        )
 
-    return response.text
+        return response.text
+
+    except Exception as e:
+        return f"Error: {e}"
