@@ -1,9 +1,10 @@
+import streamlit as st
 from google import genai
 
 # Create the client
-client = genai.Client(
-
-)
+client = (genai.Client
+          (api_key=st.secrets["GEMINI_API_KEY"]
+))
 
 # Give your chatbot a personality
 personality = """
