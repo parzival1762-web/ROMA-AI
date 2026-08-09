@@ -37,7 +37,7 @@ Chat with Roma about anything.
 
 - 💬 Ask questions
 - ❤️ Have conversations
-- 🤖 Made by Romee with love
+- 🤖 Made by Romee with lots of love
 """)
 
     st.write("")
