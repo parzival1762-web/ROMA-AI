@@ -2,7 +2,7 @@ from google import genai
 
 # Create the client
 client = genai.Client(
-    api_key="AQ.Ab8RN6L047Kd9FAryWuSTDrlmrXghGzgBa_-VgVARJYLZXnbhQ"
+
 )
 
 # Give your chatbot a personality
