@@ -5,7 +5,7 @@ from Roma import ask_roma
 # Page Configuration
 # -----------------------------
 st.set_page_config(
-    page_title="Roma AI",
+    page_title="Adrian AI",
     page_icon="❤️",
     layout="centered"
 )
@@ -54,7 +54,7 @@ elif st.session_state.page == "chat":
     col1, col2 = st.columns([8, 2])
 
     with col1:
-        st.title("❤️ Roma AI")
+        st.title("❤️ Adrian AI")
 
     with col2:
         if st.button("🏠 Home"):
